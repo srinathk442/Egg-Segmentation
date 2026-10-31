@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+# raw data and video are downloaded (see README)
+data/
+*.zip
+*.mp4
+# debug overlays written by run_experiment.py --vis (per_image.csv / summary.json are kept)
+experiments/runs*/**/*.jpg
+outputs/report_figs/_pdf_cache/
+# first (pre-QC) SAM run: keep only detections.json and overlays for the before/after figure
+outputs/task1_outputs_v1_before_qc/masks_*/
+outputs/task1_outputs_v1_before_qc/dinov2_embeddings.npz
+outputs/task1_outputs_v1_before_qc/qc_contact_sheet.jpg

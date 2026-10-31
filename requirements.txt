@@ -1,0 +1,15 @@
+# Local (CPU) pipeline: Tasks 2-4. Task 1 (SAM) runs in Colab, see notebooks/.
+numpy==2.5.4
+opencv-python==5.0.0.93
+scipy==1.18.1
+scikit-image==0.26.0
+scikit-learn==1.9.1
+pandas==3.1.0
+matplotlib==3.11.2
+pillow==13.0.0
+imageio==2.38.1
+imageio-ffmpeg==0.7.0
+# data download
+gdown==6.5.1
+yt-dlp[default]==2026.10.26
+deno==2.9.8

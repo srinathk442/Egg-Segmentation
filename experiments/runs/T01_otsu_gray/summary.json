@@ -1,0 +1,30 @@
+{
+ "name": "T01_otsu_gray",
+ "split": "dev",
+ "params": {
+  "feature": "gray",
+  "blur": 0,
+  "thresh": "otsu",
+  "fixed_thr": 200,
+  "open_k": 0,
+  "close_k": 0,
+  "fill_holes": false,
+  "min_area_frac": 0.0,
+  "keep_largest": false
+ },
+ "summary": {
+  "iou": 0.3408,
+  "dice": 0.4551,
+  "precision": 0.3704,
+  "recall": 0.8495,
+  "bf1": 0.1694,
+  "iou_median": 0.2775,
+  "iou_p10": 0.0696,
+  "inst_precision": 0.0035,
+  "inst_recall": 0.3604,
+  "inst_f1": 0.007,
+  "count_acc": 0.0227,
+  "ms_per_img": 302.1
+ },
+ "note": "baseline: global brightness, Otsu per image"
+}

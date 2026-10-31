@@ -1,0 +1,42 @@
+{
+ "name": "T07b_accept0.85",
+ "split": "dev",
+ "params": {
+  "feature": "whiteness",
+  "blur": 5,
+  "thresh": "otsu",
+  "fixed_thr": 200,
+  "open_k": 5,
+  "close_k": 0,
+  "fill_holes": false,
+  "min_area_frac": 0.003,
+  "keep_largest": false,
+  "chroma_w": 4,
+  "shape_filter": false,
+  "min_solidity": 0.85,
+  "min_ellipse_iou": 0.75,
+  "complete": "none",
+  "mode": "sweep",
+  "n_levels": 24,
+  "max_area_frac": 0.6,
+  "ring": 7,
+  "contrast_scale": 30.0,
+  "accept": 0.85,
+  "max_overlap": 0.2
+ },
+ "summary": {
+  "iou": 0.5009,
+  "dice": 0.581,
+  "precision": 0.6884,
+  "recall": 0.5567,
+  "bf1": 0.399,
+  "iou_median": 0.5945,
+  "iou_p10": 0.0,
+  "inst_precision": 0.5726,
+  "inst_recall": 0.6036,
+  "inst_f1": 0.5877,
+  "count_acc": 0.875,
+  "ms_per_img": 615.1
+ },
+ "note": "stricter acceptance of extra eggs (score>=0.85)"
+}

@@ -1,0 +1,2691 @@
+{
+ "prompt": "egg.",
+ "box_thr": 0.3,
+ "text_thr": 0.25,
+ "max_area_frac": 0.9,
+ "nms_iou": 0.5,
+ "contain_frac": 0.85,
+ "models": [
+  "IDEA-Research/grounding-dino-base",
+  "facebook/sam-vit-huge"
+ ],
+ "sec_per_img": 2.864801289818504,
+ "images": [
+  {
+   "id": "not_damaged_101",
+   "file": "test/egg/not_damaged_101_jpg.rf.479d12a2b41a5ec6d718dcdabd14b0c9.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     92.5,
+     142.3000030517578,
+     509.79998779296875,
+     443.70001220703125
+    ]
+   ],
+   "det_scores": [
+    0.8539999723434448
+   ],
+   "sam_pred_iou": [
+    0.9929999709129333
+   ],
+   "egg_area_frac": 0.22367431640625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_125",
+   "file": "test/egg/not_damaged_125_jpg.rf.b19353b1f84dcbef1ec088b850927bb3.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     225.5,
+     218.60000610351562,
+     378.70001220703125,
+     355.8999938964844
+    ]
+   ],
+   "det_scores": [
+    0.4169999957084656
+   ],
+   "sam_pred_iou": [
+    0.9800000190734863
+   ],
+   "egg_area_frac": 0.0348046875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_14",
+   "file": "test/egg/not_damaged_14_jpg.rf.dc96559078b03433d2b65e5055904af1.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     127.0,
+     208.10000610351562,
+     373.0,
+     361.79998779296875
+    ]
+   ],
+   "det_scores": [
+    0.8460000157356262
+   ],
+   "sam_pred_iou": [
+    0.9819999933242798
+   ],
+   "egg_area_frac": 0.07008056640625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_152",
+   "file": "test/egg/not_damaged_152_jpg.rf.a57edb18d395ce87e23f7abccbd1ad69.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     169.0,
+     219.3000030517578,
+     367.3999938964844,
+     365.20001220703125
+    ]
+   ],
+   "det_scores": [
+    0.8659999966621399
+   ],
+   "sam_pred_iou": [
+    0.9900000095367432
+   ],
+   "egg_area_frac": 0.053896484375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_153",
+   "file": "test/egg/not_damaged_153_jpg.rf.ea842e70f08e63e69bbcc74f1bc143a8.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     190.8000030517578,
+     234.5,
+     439.29998779296875,
+     431.29998779296875
+    ]
+   ],
+   "det_scores": [
+    0.7110000252723694
+   ],
+   "sam_pred_iou": [
+    0.9909999966621399
+   ],
+   "egg_area_frac": 0.0875732421875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_161",
+   "file": "test/egg/not_damaged_161_jpg.rf.fd216aa5e11e147fc1527478cceae94e.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     135.1999969482422,
+     237.1999969482422,
+     475.8999938964844,
+     434.5
+    ]
+   ],
+   "det_scores": [
+    0.871999979019165
+   ],
+   "sam_pred_iou": [
+    0.9940000176429749
+   ],
+   "egg_area_frac": 0.12515380859375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_1",
+   "file": "test/egg/not_damaged_1_jpg.rf.d74c98a14f068b48c1f58fd573361f1f.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     151.0,
+     183.10000610351562,
+     484.8999938964844,
+     420.79998779296875
+    ]
+   ],
+   "det_scores": [
+    0.8740000128746033
+   ],
+   "sam_pred_iou": [
+    0.9919999837875366
+   ],
+   "egg_area_frac": 0.13748046875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_30",
+   "file": "test/egg/not_damaged_30_jpg.rf.48e9261777355fe67139ac1c5eae596b.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     215.89999389648438,
+     260.70001220703125,
+     458.79998779296875,
+     463.8999938964844
+    ]
+   ],
+   "det_scores": [
+    0.7919999957084656
+   ],
+   "sam_pred_iou": [
+    0.9860000014305115
+   ],
+   "egg_area_frac": 0.08962158203125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_43",
+   "file": "test/egg/not_damaged_43_jpg.rf.66c31342150e751c30214786e72c8683.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     293.8999938964844,
+     168.60000610351562,
+     574.2000122070312,
+     451.6000061035156
+    ]
+   ],
+   "det_scores": [
+    0.8519999980926514
+   ],
+   "sam_pred_iou": [
+    0.9860000014305115
+   ],
+   "egg_area_frac": 0.1476513671875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_4",
+   "file": "test/egg/not_damaged_4_jpg.rf.36c78b63ea4710d9642651ac3292fd58.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     198.3000030517578,
+     15.399999618530273,
+     615.0,
+     325.20001220703125
+    ]
+   ],
+   "det_scores": [
+    0.8399999737739563
+   ],
+   "sam_pred_iou": [
+    0.984000027179718
+   ],
+   "egg_area_frac": 0.23606201171875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_78",
+   "file": "test/egg/not_damaged_78_jpg.rf.d3a6e8624d192abc58ff7df9d5781bb5.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     228.10000610351562,
+     210.1999969482422,
+     530.9000244140625,
+     461.6000061035156
+    ]
+   ],
+   "det_scores": [
+    0.7549999952316284
+   ],
+   "sam_pred_iou": [
+    0.9800000190734863
+   ],
+   "egg_area_frac": 0.14182373046875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_135",
+   "file": "train/Unlabeled/not_damaged_135_jpg.rf.a6d81ffb82470e031fb3ab469c8f0db2.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     325.20001220703125,
+     248.60000610351562,
+     492.70001220703125,
+     388.1000061035156
+    ]
+   ],
+   "det_scores": [
+    0.4950000047683716
+   ],
+   "sam_pred_iou": [
+    0.9369999766349792
+   ],
+   "egg_area_frac": 0.03999267578125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_145",
+   "file": "train/Unlabeled/not_damaged_145_jpg.rf.5147bfde42f30a27504377fd5ef13b05.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     278.20001220703125,
+     286.20001220703125,
+     434.20001220703125,
+     406.20001220703125
+    ]
+   ],
+   "det_scores": [
+    0.5199999809265137
+   ],
+   "sam_pred_iou": [
+    0.9049999713897705
+   ],
+   "egg_area_frac": 0.03448486328125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_100",
+   "file": "train/egg/not_damaged_100_jpg.rf.5d780a6024004fa2f68741fa56ddf4c9.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     177.0,
+     143.8000030517578,
+     570.2999877929688,
+     538.9000244140625
+    ]
+   ],
+   "det_scores": [
+    0.765999972820282
+   ],
+   "sam_pred_iou": [
+    0.9919999837875366
+   ],
+   "egg_area_frac": 0.2862158203125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_103",
+   "file": "train/egg/not_damaged_103_jpg.rf.c0bd961caec5acf3a6582c9cb2551634.jpg",
+   "n_raw_boxes": 3,
+   "n_eggs": 3,
+   "boxes": [
+    [
+     279.20001220703125,
+     433.8999938964844,
+     460.29998779296875,
+     624.2000122070312
+    ],
+    [
+     273.70001220703125,
+     236.10000610351562,
+     474.5,
+     406.70001220703125
+    ],
+    [
+     196.8000030517578,
+     53.79999923706055,
+     446.20001220703125,
+     226.60000610351562
+    ]
+   ],
+   "det_scores": [
+    0.6600000262260437,
+    0.6489999890327454,
+    0.6470000147819519
+   ],
+   "sam_pred_iou": [
+    0.9860000014305115,
+    0.9879999756813049,
+    0.9869999885559082
+   ],
+   "egg_area_frac": 0.2047119140625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_104",
+   "file": "train/egg/not_damaged_104_jpg.rf.3bf8cb51d5ad8934390c8e2c3b79b32f.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     199.39999389648438,
+     192.3000030517578,
+     408.6000061035156,
+     402.20001220703125
+    ]
+   ],
+   "det_scores": [
+    0.824999988079071
+   ],
+   "sam_pred_iou": [
+    0.9710000157356262
+   ],
+   "egg_area_frac": 0.0816357421875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_105",
+   "file": "train/egg/not_damaged_105_jpg.rf.6b94b57d4e4cb521abbec55bb95c2a76.jpg",
+   "n_raw_boxes": 3,
+   "n_eggs": 3,
+   "boxes": [
+    [
+     413.79998779296875,
+     278.20001220703125,
+     596.2999877929688,
+     418.70001220703125
+    ],
+    [
+     319.29998779296875,
+     129.5,
+     479.1000061035156,
+     284.20001220703125
+    ],
+    [
+     27.299999237060547,
+     371.5,
+     247.39999389648438,
+     497.5
+    ]
+   ],
+   "det_scores": [
+    0.6019999980926514,
+    0.5950000286102295,
+    0.5690000057220459
+   ],
+   "sam_pred_iou": [
+    0.9850000143051147,
+    0.9850000143051147,
+    0.9829999804496765
+   ],
+   "egg_area_frac": 0.142939453125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_106",
+   "file": "train/egg/not_damaged_106_jpg.rf.4ab043b322cc9e55bdf788a4d69ae74b.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     205.60000610351562,
+     252.89999389648438,
+     455.20001220703125,
+     507.5
+    ]
+   ],
+   "det_scores": [
+    0.847000002861023
+   ],
+   "sam_pred_iou": [
+    0.9810000061988831
+   ],
+   "egg_area_frac": 0.11417236328125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_108",
+   "file": "train/egg/not_damaged_108_jpg.rf.de0bd2447ade8d891625ac0dd055667a.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     259.5,
+     155.5,
+     404.1000061035156,
+     284.70001220703125
+    ]
+   ],
+   "det_scores": [
+    0.796999990940094
+   ],
+   "sam_pred_iou": [
+    0.984000027179718
+   ],
+   "egg_area_frac": 0.03461181640625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_10",
+   "file": "train/egg/not_damaged_10_jpg.rf.2347ffa54eea250ab240def10a3eb78f.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     134.60000610351562,
+     269.70001220703125,
+     412.20001220703125,
+     469.3999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8880000114440918
+   ],
+   "sam_pred_iou": [
+    0.9750000238418579
+   ],
+   "egg_area_frac": 0.06887451171875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_110",
+   "file": "train/egg/not_damaged_110_jpg.rf.2de10ae949146248df94e52f9065bdd8.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     70.0,
+     131.5,
+     368.29998779296875,
+     385.8999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8529999852180481
+   ],
+   "sam_pred_iou": [
+    0.9919999837875366
+   ],
+   "egg_area_frac": 0.13747802734375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_111",
+   "file": "train/egg/not_damaged_111_jpg.rf.d56bdd5f452dfc3935b4d6962ed33309.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     195.0,
+     211.0,
+     468.6000061035156,
+     467.20001220703125
+    ]
+   ],
+   "det_scores": [
+    0.8259999752044678
+   ],
+   "sam_pred_iou": [
+    0.9850000143051147
+   ],
+   "egg_area_frac": 0.12962158203125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_112",
+   "file": "train/egg/not_damaged_112_jpg.rf.2ecb081cd9d32a7ff8c9f4db24e911b9.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     177.3000030517578,
+     186.10000610351562,
+     465.0,
+     378.29998779296875
+    ]
+   ],
+   "det_scores": [
+    0.847000002861023
+   ],
+   "sam_pred_iou": [
+    0.9819999933242798
+   ],
+   "egg_area_frac": 0.1002001953125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_113",
+   "file": "train/egg/not_damaged_113_jpg.rf.75e3389c0809c7c0f42fbfd25219e65e.jpg",
+   "n_raw_boxes": 2,
+   "n_eggs": 2,
+   "boxes": [
+    [
+     301.6000061035156,
+     241.1999969482422,
+     461.70001220703125,
+     389.79998779296875
+    ],
+    [
+     18.0,
+     367.20001220703125,
+     269.0,
+     536.2999877929688
+    ]
+   ],
+   "det_scores": [
+    0.7279999852180481,
+    0.6840000152587891
+   ],
+   "sam_pred_iou": [
+    0.9810000061988831,
+    0.9750000238418579
+   ],
+   "egg_area_frac": 0.12118408203125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_114",
+   "file": "train/egg/not_damaged_114_jpg.rf.7ccf87a5610bafd963468463b2e2907c.jpg",
+   "n_raw_boxes": 2,
+   "n_eggs": 2,
+   "boxes": [
+    [
+     345.0,
+     171.8000030517578,
+     539.0,
+     337.8999938964844
+    ],
+    [
+     25.5,
+     312.8999938964844,
+     278.3999938964844,
+     462.29998779296875
+    ]
+   ],
+   "det_scores": [
+    0.7229999899864197,
+    0.6880000233650208
+   ],
+   "sam_pred_iou": [
+    0.9850000143051147,
+    0.9800000190734863
+   ],
+   "egg_area_frac": 0.129130859375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_116",
+   "file": "train/egg/not_damaged_116_jpg.rf.43fecd96347e2129115fceed65986cc9.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     398.8999938964844,
+     323.29998779296875,
+     552.9000244140625,
+     491.8999938964844
+    ]
+   ],
+   "det_scores": [
+    0.6629999876022339
+   ],
+   "sam_pred_iou": [
+    0.9710000157356262
+   ],
+   "egg_area_frac": 0.046826171875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_117",
+   "file": "train/egg/not_damaged_117_jpg.rf.d25ded9e7408f9b89b3cfb3de581f6a6.jpg",
+   "n_raw_boxes": 2,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     249.39999389648438,
+     108.4000015258789,
+     521.7000122070312,
+     285.29998779296875
+    ]
+   ],
+   "det_scores": [
+    0.48500001430511475
+   ],
+   "sam_pred_iou": [
+    0.968999981880188
+   ],
+   "egg_area_frac": 0.0686328125,
+   "override": {
+    "keep": [
+     0
+    ],
+    "points": [
+     [
+      [
+       310,
+       190,
+       1
+      ],
+      [
+       485,
+       185,
+       1
+      ],
+      [
+       425,
+       190,
+       0
+      ]
+     ]
+    ],
+    "multi_cc": true
+   }
+  },
+  {
+   "id": "not_damaged_118",
+   "file": "train/egg/not_damaged_118_jpg.rf.3e17ba84bcb3b57ebbf743b145c5ae27.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     214.5,
+     237.8000030517578,
+     478.8999938964844,
+     496.3999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8650000095367432
+   ],
+   "sam_pred_iou": [
+    0.9760000109672546
+   ],
+   "egg_area_frac": 0.12254638671875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_121",
+   "file": "train/egg/not_damaged_121_jpg.rf.0506fe180f5fed88ae65348130fb5192.jpg",
+   "n_raw_boxes": 3,
+   "n_eggs": 3,
+   "boxes": [
+    [
+     267.20001220703125,
+     340.6000061035156,
+     435.3999938964844,
+     461.20001220703125
+    ],
+    [
+     474.29998779296875,
+     154.89999389648438,
+     627.7999877929688,
+     297.1000061035156
+    ],
+    [
+     29.5,
+     202.60000610351562,
+     188.3000030517578,
+     345.8999938964844
+    ]
+   ],
+   "det_scores": [
+    0.6669999957084656,
+    0.6639999747276306,
+    0.6480000019073486
+   ],
+   "sam_pred_iou": [
+    0.9850000143051147,
+    0.9829999804496765,
+    0.9850000143051147
+   ],
+   "egg_area_frac": 0.1180908203125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_123",
+   "file": "train/egg/not_damaged_123_jpg.rf.11d40a86277d3ab3fce1c5c6cbf14db0.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     208.60000610351562,
+     138.3000030517578,
+     379.6000061035156,
+     305.0
+    ]
+   ],
+   "det_scores": [
+    0.746999979019165
+   ],
+   "sam_pred_iou": [
+    0.9729999899864197
+   ],
+   "egg_area_frac": 0.04802001953125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_124",
+   "file": "train/egg/not_damaged_124_jpg.rf.931f62b8d40a093039633b898e0e9114.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     307.3999938964844,
+     221.39999389648438,
+     494.3999938964844,
+     361.6000061035156
+    ]
+   ],
+   "det_scores": [
+    0.46000000834465027
+   ],
+   "sam_pred_iou": [
+    0.9359999895095825
+   ],
+   "egg_area_frac": 0.043037109375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_127",
+   "file": "train/egg/not_damaged_127_jpg.rf.3a541bab7c9e2c2e43c2fdbf391617b5.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     215.89999389648438,
+     243.6999969482422,
+     373.29998779296875,
+     392.29998779296875
+    ]
+   ],
+   "det_scores": [
+    0.8629999756813049
+   ],
+   "sam_pred_iou": [
+    0.9850000143051147
+   ],
+   "egg_area_frac": 0.04294921875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_128",
+   "file": "train/egg/not_damaged_128_jpg.rf.95a7ef96dcc9e14fa7137708df6f2e60.jpg",
+   "n_raw_boxes": 2,
+   "n_eggs": 2,
+   "boxes": [
+    [
+     395.70001220703125,
+     119.19999694824219,
+     627.9000244140625,
+     282.5
+    ],
+    [
+     22.899999618530273,
+     240.1999969482422,
+     300.79998779296875,
+     383.8999938964844
+    ]
+   ],
+   "det_scores": [
+    0.7129999995231628,
+    0.7049999833106995
+   ],
+   "sam_pred_iou": [
+    0.9869999885559082,
+    0.9819999933242798
+   ],
+   "egg_area_frac": 0.1431103515625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_129",
+   "file": "train/egg/not_damaged_129_jpg.rf.3cee5e92daed138fcdc13d9aa62c2785.jpg",
+   "n_raw_boxes": 2,
+   "n_eggs": 2,
+   "boxes": [
+    [
+     354.29998779296875,
+     151.1999969482422,
+     552.4000244140625,
+     304.29998779296875
+    ],
+    [
+     2.0999999046325684,
+     251.1999969482422,
+     276.0,
+     401.29998779296875
+    ]
+   ],
+   "det_scores": [
+    0.6980000138282776,
+    0.6679999828338623
+   ],
+   "sam_pred_iou": [
+    0.9810000061988831,
+    0.9810000061988831
+   ],
+   "egg_area_frac": 0.13240478515625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_12",
+   "file": "train/egg/not_damaged_12_jpg.rf.339e366cebec5c32e751e8500aa12f3e.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     219.3000030517578,
+     224.8000030517578,
+     422.0,
+     449.70001220703125
+    ]
+   ],
+   "det_scores": [
+    0.8790000081062317
+   ],
+   "sam_pred_iou": [
+    0.9649999737739563
+   ],
+   "egg_area_frac": 0.05692138671875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_131",
+   "file": "train/egg/not_damaged_131_jpg.rf.4ac62f5b18b131bac463f705d0969147.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     158.8000030517578,
+     107.69999694824219,
+     539.4000244140625,
+     381.6000061035156
+    ]
+   ],
+   "det_scores": [
+    0.8379999995231628
+   ],
+   "sam_pred_iou": [
+    0.984000027179718
+   ],
+   "egg_area_frac": 0.19216796875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_132",
+   "file": "train/egg/not_damaged_132_jpg.rf.5deff743ad11d33750171617e116bd7a.jpg",
+   "n_raw_boxes": 3,
+   "n_eggs": 3,
+   "boxes": [
+    [
+     478.3999938964844,
+     200.0,
+     603.7000122070312,
+     315.6000061035156
+    ],
+    [
+     367.29998779296875,
+     363.3999938964844,
+     521.7000122070312,
+     474.20001220703125
+    ],
+    [
+     143.10000610351562,
+     230.6999969482422,
+     315.29998779296875,
+     385.29998779296875
+    ]
+   ],
+   "det_scores": [
+    0.6570000052452087,
+    0.6480000019073486,
+    0.6330000162124634
+   ],
+   "sam_pred_iou": [
+    0.9850000143051147,
+    0.984000027179718,
+    0.9819999933242798
+   ],
+   "egg_area_frac": 0.1062744140625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_134",
+   "file": "train/egg/not_damaged_134_jpg.rf.fb4e9c442527db9e71d4a95584773fa2.jpg",
+   "n_raw_boxes": 3,
+   "n_eggs": 3,
+   "boxes": [
+    [
+     430.1000061035156,
+     265.29998779296875,
+     606.2000122070312,
+     401.1000061035156
+    ],
+    [
+     1.2000000476837158,
+     342.8999938964844,
+     297.5,
+     506.1000061035156
+    ],
+    [
+     352.5,
+     90.5,
+     526.4000244140625,
+     258.5
+    ]
+   ],
+   "det_scores": [
+    0.6179999709129333,
+    0.6119999885559082,
+    0.609000027179718
+   ],
+   "sam_pred_iou": [
+    0.984000027179718,
+    0.9860000014305115,
+    0.9850000143051147
+   ],
+   "egg_area_frac": 0.18640625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_138",
+   "file": "train/egg/not_damaged_138_jpg.rf.4db6e0e16ddec73ff527d4efbb119f7a.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     198.1999969482422,
+     228.3000030517578,
+     495.3999938964844,
+     459.8999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8650000095367432
+   ],
+   "sam_pred_iou": [
+    0.9810000061988831
+   ],
+   "egg_area_frac": 0.1238330078125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_139",
+   "file": "train/egg/not_damaged_139_jpg.rf.9f18c65b30035092401a5281a03b7124.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     116.30000305175781,
+     59.400001525878906,
+     351.79998779296875,
+     286.6000061035156
+    ]
+   ],
+   "det_scores": [
+    0.8420000076293945
+   ],
+   "sam_pred_iou": [
+    0.9869999885559082
+   ],
+   "egg_area_frac": 0.09882568359375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_13",
+   "file": "train/egg/not_damaged_13_jpg.rf.60964651b01aed5680a994ecbd7012ea.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     268.3999938964844,
+     159.39999389648438,
+     466.3999938964844,
+     281.1000061035156
+    ]
+   ],
+   "det_scores": [
+    0.8560000061988831
+   ],
+   "sam_pred_iou": [
+    0.9559999704360962
+   ],
+   "egg_area_frac": 0.03869140625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_141",
+   "file": "train/egg/not_damaged_141_jpg.rf.67be7a06282cf025b53162b5a9df15ff.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     86.5999984741211,
+     212.10000610351562,
+     530.4000244140625,
+     472.8999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8240000009536743
+   ],
+   "sam_pred_iou": [
+    0.9890000224113464
+   ],
+   "egg_area_frac": 0.21376708984375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_142",
+   "file": "train/egg/not_damaged_142_jpg.rf.5b29be6bd5a6cfc192f51a5b580c1a07.jpg",
+   "n_raw_boxes": 3,
+   "n_eggs": 3,
+   "boxes": [
+    [
+     281.79998779296875,
+     159.89999389648438,
+     537.0999755859375,
+     356.6000061035156
+    ],
+    [
+     159.1999969482422,
+     85.30000305175781,
+     365.5,
+     282.29998779296875
+    ],
+    [
+     92.69999694824219,
+     264.1000061035156,
+     309.20001220703125,
+     429.5
+    ]
+   ],
+   "det_scores": [
+    0.5630000233650208,
+    0.5429999828338623,
+    0.5400000214576721
+   ],
+   "sam_pred_iou": [
+    0.9879999756813049,
+    0.9909999966621399,
+    0.9810000061988831
+   ],
+   "egg_area_frac": 0.22388671875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_144",
+   "file": "train/egg/not_damaged_144_jpg.rf.a9435fb1769a2350dbdd400bcc46a4eb.jpg",
+   "n_raw_boxes": 3,
+   "n_eggs": 3,
+   "boxes": [
+    [
+     337.70001220703125,
+     94.0999984741211,
+     633.5,
+     315.0
+    ],
+    [
+     31.700000762939453,
+     110.19999694824219,
+     351.29998779296875,
+     395.79998779296875
+    ],
+    [
+     143.60000610351562,
+     0.10000000149011612,
+     402.29998779296875,
+     180.0
+    ]
+   ],
+   "det_scores": [
+    0.5669999718666077,
+    0.5559999942779541,
+    0.5529999732971191
+   ],
+   "sam_pred_iou": [
+    0.9879999756813049,
+    0.9810000061988831,
+    0.9779999852180481
+   ],
+   "egg_area_frac": 0.357119140625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_146",
+   "file": "train/egg/not_damaged_146_jpg.rf.a7df655e36c3a2faab1c3f248081504d.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     157.6999969482422,
+     175.60000610351562,
+     463.29998779296875,
+     495.5
+    ]
+   ],
+   "det_scores": [
+    0.8420000076293945
+   ],
+   "sam_pred_iou": [
+    0.9919999837875366
+   ],
+   "egg_area_frac": 0.1823779296875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_148",
+   "file": "train/egg/not_damaged_148_jpg.rf.8a3e1c0e1dae236abe0e9a75a4882bda.jpg",
+   "n_raw_boxes": 3,
+   "n_eggs": 3,
+   "boxes": [
+    [
+     293.5,
+     209.5,
+     560.5999755859375,
+     405.6000061035156
+    ],
+    [
+     66.4000015258789,
+     303.6000061035156,
+     314.1000061035156,
+     492.1000061035156
+    ],
+    [
+     119.30000305175781,
+     84.80000305175781,
+     361.20001220703125,
+     311.29998779296875
+    ]
+   ],
+   "det_scores": [
+    0.609000027179718,
+    0.5950000286102295,
+    0.5929999947547913
+   ],
+   "sam_pred_iou": [
+    0.9879999756813049,
+    0.984000027179718,
+    0.9890000224113464
+   ],
+   "egg_area_frac": 0.28357666015625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_151",
+   "file": "train/egg/not_damaged_151_jpg.rf.34a8c4ae80d0863cd228120235134ae2.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     158.8000030517578,
+     115.0999984741211,
+     401.5,
+     352.6000061035156
+    ]
+   ],
+   "det_scores": [
+    0.8539999723434448
+   ],
+   "sam_pred_iou": [
+    0.9929999709129333
+   ],
+   "egg_area_frac": 0.10712646484375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_154",
+   "file": "train/egg/not_damaged_154_jpg.rf.1ad087e824bbaae4f2c8218624f83c1a.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     162.8000030517578,
+     96.69999694824219,
+     462.6000061035156,
+     392.3999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8550000190734863
+   ],
+   "sam_pred_iou": [
+    0.9919999837875366
+   ],
+   "egg_area_frac": 0.1632275390625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_155",
+   "file": "train/egg/not_damaged_155_jpg.rf.a65395f65d93bcd6cbf6bdab6d94e551.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     173.60000610351562,
+     219.10000610351562,
+     432.79998779296875,
+     365.70001220703125
+    ]
+   ],
+   "det_scores": [
+    0.8510000109672546
+   ],
+   "sam_pred_iou": [
+    0.9879999756813049
+   ],
+   "egg_area_frac": 0.06861083984375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_156",
+   "file": "train/egg/not_damaged_156_jpg.rf.6ae4742599d61d6120e5beb5d38bcf2e.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     156.39999389648438,
+     246.89999389648438,
+     452.0,
+     414.20001220703125
+    ]
+   ],
+   "det_scores": [
+    0.8489999771118164
+   ],
+   "sam_pred_iou": [
+    0.9829999804496765
+   ],
+   "egg_area_frac": 0.09121826171875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_157",
+   "file": "train/egg/not_damaged_157_jpg.rf.b244a82199f2158510ccf485e54d98a2.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     96.0,
+     167.0,
+     473.6000061035156,
+     469.5
+    ]
+   ],
+   "det_scores": [
+    0.8799999952316284
+   ],
+   "sam_pred_iou": [
+    0.9980000257492065
+   ],
+   "egg_area_frac": 0.20656494140625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_159",
+   "file": "train/egg/not_damaged_159_jpg.rf.2bc51aa920c0031f8e311c52c762cded.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     34.5,
+     147.60000610351562,
+     349.6000061035156,
+     384.20001220703125
+    ]
+   ],
+   "det_scores": [
+    0.8299999833106995
+   ],
+   "sam_pred_iou": [
+    0.9900000095367432
+   ],
+   "egg_area_frac": 0.13953369140625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_15",
+   "file": "train/egg/not_damaged_15_jpg.rf.c7c6c90e16bcccd97696ed56f741d670.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     141.10000610351562,
+     196.10000610351562,
+     427.3999938964844,
+     494.3999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8790000081062317
+   ],
+   "sam_pred_iou": [
+    0.9739999771118164
+   ],
+   "egg_area_frac": 0.155068359375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_160",
+   "file": "train/egg/not_damaged_160_jpg.rf.64b7834918be5b72840ecee1e390157e.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     171.0,
+     160.5,
+     392.6000061035156,
+     323.0
+    ]
+   ],
+   "det_scores": [
+    0.8519999980926514
+   ],
+   "sam_pred_iou": [
+    0.9800000190734863
+   ],
+   "egg_area_frac": 0.06737548828125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_162",
+   "file": "train/egg/not_damaged_162_jpg.rf.4255a3c6bb6b0a9a625d70a5b51a7df9.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     79.69999694824219,
+     142.1999969482422,
+     547.2999877929688,
+     407.8999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8569999933242798
+   ],
+   "sam_pred_iou": [
+    0.9890000224113464
+   ],
+   "egg_area_frac": 0.2292333984375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_163",
+   "file": "train/egg/not_damaged_163_jpg.rf.eee95b2e3a2af8b228d81075f9b2f24d.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     174.8000030517578,
+     215.5,
+     488.20001220703125,
+     425.1000061035156
+    ]
+   ],
+   "det_scores": [
+    0.8690000176429749
+   ],
+   "sam_pred_iou": [
+    0.9869999885559082
+   ],
+   "egg_area_frac": 0.122119140625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_164",
+   "file": "train/egg/not_damaged_164_jpg.rf.aeab74f44b77d69cb4884f8a55d4a5b8.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     60.5,
+     147.89999389648438,
+     471.79998779296875,
+     380.5
+    ]
+   ],
+   "det_scores": [
+    0.8600000143051147
+   ],
+   "sam_pred_iou": [
+    0.9919999837875366
+   ],
+   "egg_area_frac": 0.17791015625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_16",
+   "file": "train/egg/not_damaged_16_jpg.rf.133bb95ee3eacad7aecf2ab4cd1e1ff4.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     182.6999969482422,
+     167.6999969482422,
+     533.7999877929688,
+     387.3999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8169999718666077
+   ],
+   "sam_pred_iou": [
+    0.9810000061988831
+   ],
+   "egg_area_frac": 0.143095703125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_17",
+   "file": "train/egg/not_damaged_17_jpg.rf.7298154b15cab2942d3351120a4337d5.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     208.60000610351562,
+     209.39999389648438,
+     492.70001220703125,
+     503.29998779296875
+    ]
+   ],
+   "det_scores": [
+    0.8640000224113464
+   ],
+   "sam_pred_iou": [
+    0.9900000095367432
+   ],
+   "egg_area_frac": 0.15602294921875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_18",
+   "file": "train/egg/not_damaged_18_jpg.rf.bc3fb0b05f8e3f72d25ae44db40362c0.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     213.60000610351562,
+     245.89999389648438,
+     452.1000061035156,
+     417.8999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8410000205039978
+   ],
+   "sam_pred_iou": [
+    0.9760000109672546
+   ],
+   "egg_area_frac": 0.07511962890625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_19",
+   "file": "train/egg/not_damaged_19_jpg.rf.b68555e4ce0c87f7f6a9f9d441a47a08.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     80.0,
+     49.29999923706055,
+     457.29998779296875,
+     383.20001220703125
+    ]
+   ],
+   "det_scores": [
+    0.8379999995231628
+   ],
+   "sam_pred_iou": [
+    0.9890000224113464
+   ],
+   "egg_area_frac": 0.2377392578125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_20",
+   "file": "train/egg/not_damaged_20_jpg.rf.5e8498e31e0e596d64f6185f7c56534f.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     161.0,
+     139.10000610351562,
+     338.8999938964844,
+     299.29998779296875
+    ]
+   ],
+   "det_scores": [
+    0.8539999723434448
+   ],
+   "sam_pred_iou": [
+    0.972000002861023
+   ],
+   "egg_area_frac": 0.04968994140625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_21",
+   "file": "train/egg/not_damaged_21_jpg.rf.a584f5d526fa26469cc144a40a3134da.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     102.5999984741211,
+     115.69999694824219,
+     549.9000244140625,
+     380.8999938964844
+    ]
+   ],
+   "det_scores": [
+    0.7269999980926514
+   ],
+   "sam_pred_iou": [
+    0.9950000047683716
+   ],
+   "egg_area_frac": 0.2167431640625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_22",
+   "file": "train/egg/not_damaged_22_jpg.rf.427da4fa2858bf0484b607774c6077c5.jpg",
+   "n_raw_boxes": 2,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     363.3999938964844,
+     240.1999969482422,
+     482.0,
+     362.1000061035156
+    ]
+   ],
+   "det_scores": [
+    0.671999990940094
+   ],
+   "sam_pred_iou": [
+    0.9819999933242798
+   ],
+   "egg_area_frac": 0.0263671875,
+   "override": {
+    "keep": [
+     0
+    ]
+   }
+  },
+  {
+   "id": "not_damaged_24",
+   "file": "train/egg/not_damaged_24_jpg.rf.a557aeb67c480dc55479509a77b4e160.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     151.60000610351562,
+     194.6999969482422,
+     447.29998779296875,
+     393.8999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8429999947547913
+   ],
+   "sam_pred_iou": [
+    0.972000002861023
+   ],
+   "egg_area_frac": 0.10433349609375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_27",
+   "file": "train/egg/not_damaged_27_jpg.rf.9eabbf76d6ac2d4caccb38b11e0d28ad.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     228.1999969482422,
+     211.6999969482422,
+     534.0,
+     464.8999938964844
+    ]
+   ],
+   "det_scores": [
+    0.7459999918937683
+   ],
+   "sam_pred_iou": [
+    0.9789999723434448
+   ],
+   "egg_area_frac": 0.14452880859375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_28",
+   "file": "train/egg/not_damaged_28_jpg.rf.a7e8555e9e2b27a796da5d502582db24.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     258.5,
+     58.29999923706055,
+     441.0,
+     226.8000030517578
+    ]
+   ],
+   "det_scores": [
+    0.7789999842643738
+   ],
+   "sam_pred_iou": [
+    0.9890000224113464
+   ],
+   "egg_area_frac": 0.057451171875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_29",
+   "file": "train/egg/not_damaged_29_jpg.rf.b15d563685f9a249436a706a816cec07.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     278.20001220703125,
+     104.0999984741211,
+     637.9000244140625,
+     472.8999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8500000238418579
+   ],
+   "sam_pred_iou": [
+    0.9940000176429749
+   ],
+   "egg_area_frac": 0.24716064453125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_2",
+   "file": "train/egg/not_damaged_2_jpg.rf.a4629fbffb9457cd3dda5a1dfc6e5365.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     151.89999389648438,
+     98.30000305175781,
+     436.29998779296875,
+     306.6000061035156
+    ]
+   ],
+   "det_scores": [
+    0.859000027179718
+   ],
+   "sam_pred_iou": [
+    0.9959999918937683
+   ],
+   "egg_area_frac": 0.10823486328125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_31",
+   "file": "train/egg/not_damaged_31_jpg.rf.7a5340cc049f94d06b26fa34850535ab.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     147.1999969482422,
+     268.0,
+     526.0999755859375,
+     477.20001220703125
+    ]
+   ],
+   "det_scores": [
+    0.7730000019073486
+   ],
+   "sam_pred_iou": [
+    0.9850000143051147
+   ],
+   "egg_area_frac": 0.14740478515625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_32",
+   "file": "train/egg/not_damaged_32_jpg.rf.15f5702d8602844d8d866d229e674c89.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     266.6000061035156,
+     258.1000061035156,
+     433.0,
+     420.20001220703125
+    ]
+   ],
+   "det_scores": [
+    0.8330000042915344
+   ],
+   "sam_pred_iou": [
+    0.9779999852180481
+   ],
+   "egg_area_frac": 0.049267578125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_33",
+   "file": "train/egg/not_damaged_33_jpg.rf.0d5860269868461da778265b77ee13b2.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     289.6000061035156,
+     130.1999969482422,
+     554.5,
+     399.5
+    ]
+   ],
+   "det_scores": [
+    0.8029999732971191
+   ],
+   "sam_pred_iou": [
+    0.9900000095367432
+   ],
+   "egg_area_frac": 0.13127685546875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_34",
+   "file": "train/egg/not_damaged_34_jpg.rf.4be2a53f051e4372100c90f2d36ea129.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     101.69999694824219,
+     143.1999969482422,
+     548.7000122070312,
+     391.6000061035156
+    ]
+   ],
+   "det_scores": [
+    0.7829999923706055
+   ],
+   "sam_pred_iou": [
+    0.9950000047683716
+   ],
+   "egg_area_frac": 0.20481689453125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_35",
+   "file": "train/egg/not_damaged_35_jpg.rf.fe6e06dca50c525194a8edc282489e2a.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     9.5,
+     224.8000030517578,
+     611.0,
+     573.2000122070312
+    ]
+   ],
+   "det_scores": [
+    0.6669999957084656
+   ],
+   "sam_pred_iou": [
+    0.9959999918937683
+   ],
+   "egg_area_frac": 0.38042724609375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_36",
+   "file": "train/egg/not_damaged_36_jpg.rf.4968de1c56728d9f7325771e3a7f7e3e.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     99.0,
+     128.8000030517578,
+     481.1000061035156,
+     352.29998779296875
+    ]
+   ],
+   "det_scores": [
+    0.6549999713897705
+   ],
+   "sam_pred_iou": [
+    0.984000027179718
+   ],
+   "egg_area_frac": 0.1535205078125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_37",
+   "file": "train/egg/not_damaged_37_jpg.rf.73b8cff8dacc52197fd7fdd958397507.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     187.10000610351562,
+     297.79998779296875,
+     535.0,
+     562.7999877929688
+    ]
+   ],
+   "det_scores": [
+    0.8619999885559082
+   ],
+   "sam_pred_iou": [
+    0.984000027179718
+   ],
+   "egg_area_frac": 0.16499267578125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_39",
+   "file": "train/egg/not_damaged_39_jpg.rf.81c4c633444db832268298ddae1010d6.jpg",
+   "n_raw_boxes": 2,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     375.29998779296875,
+     169.1999969482422,
+     535.7000122070312,
+     331.0
+    ]
+   ],
+   "det_scores": [
+    0.6620000004768372
+   ],
+   "sam_pred_iou": [
+    0.9819999933242798
+   ],
+   "egg_area_frac": 0.04827880859375,
+   "override": {
+    "keep": [
+     0
+    ]
+   }
+  },
+  {
+   "id": "not_damaged_3",
+   "file": "train/egg/not_damaged_3_jpg.rf.d68fc8de8607c2495eb8c832c1e24078.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     171.60000610351562,
+     101.30000305175781,
+     538.9000244140625,
+     365.29998779296875
+    ]
+   ],
+   "det_scores": [
+    0.847000002861023
+   ],
+   "sam_pred_iou": [
+    0.9919999837875366
+   ],
+   "egg_area_frac": 0.17252197265625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_41",
+   "file": "train/egg/not_damaged_41_jpg.rf.630408063dc3fdfa9a9a7f49e1c1d93c.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     71.80000305175781,
+     253.5,
+     414.29998779296875,
+     485.1000061035156
+    ]
+   ],
+   "det_scores": [
+    0.800000011920929
+   ],
+   "sam_pred_iou": [
+    0.984000027179718
+   ],
+   "egg_area_frac": 0.14704345703125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_42",
+   "file": "train/egg/not_damaged_42_jpg.rf.6626de5325fbf9ad4fec739b2a4e29f3.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     126.4000015258789,
+     21.5,
+     347.1000061035156,
+     156.89999389648438
+    ]
+   ],
+   "det_scores": [
+    0.7310000061988831
+   ],
+   "sam_pred_iou": [
+    0.9819999933242798
+   ],
+   "egg_area_frac": 0.0430908203125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_44",
+   "file": "train/egg/not_damaged_44_jpg.rf.a4dbaabec5b64e4c34d874a6870964be.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     1.2999999523162842,
+     62.70000076293945,
+     563.0999755859375,
+     374.1000061035156
+    ]
+   ],
+   "det_scores": [
+    0.7599999904632568
+   ],
+   "sam_pred_iou": [
+    0.972000002861023
+   ],
+   "egg_area_frac": 0.31766357421875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_49",
+   "file": "train/egg/not_damaged_49_jpg.rf.78a86245d3715c60d39d47045a323711.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     40.20000076293945,
+     148.60000610351562,
+     441.8999938964844,
+     390.20001220703125
+    ]
+   ],
+   "det_scores": [
+    0.8640000224113464
+   ],
+   "sam_pred_iou": [
+    0.9869999885559082
+   ],
+   "egg_area_frac": 0.181435546875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_50",
+   "file": "train/egg/not_damaged_50_jpg.rf.b9e65c2fcdb435269f67c9d7ade8ca89.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     157.89999389648438,
+     179.6999969482422,
+     408.8999938964844,
+     369.70001220703125
+    ]
+   ],
+   "det_scores": [
+    0.8579999804496765
+   ],
+   "sam_pred_iou": [
+    0.9869999885559082
+   ],
+   "egg_area_frac": 0.08972412109375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_52",
+   "file": "train/egg/not_damaged_52_jpg.rf.d62840582d63156f7e346b41ab8895d5.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     214.60000610351562,
+     94.4000015258789,
+     408.8999938964844,
+     293.1000061035156
+    ]
+   ],
+   "det_scores": [
+    0.8569999933242798
+   ],
+   "sam_pred_iou": [
+    0.9769999980926514
+   ],
+   "egg_area_frac": 0.0690966796875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_55",
+   "file": "train/egg/not_damaged_55_jpg.rf.73873084ba51dd4e5ab40033b6003190.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     296.3999938964844,
+     156.0,
+     515.7000122070312,
+     319.79998779296875
+    ]
+   ],
+   "det_scores": [
+    0.8679999709129333
+   ],
+   "sam_pred_iou": [
+    0.9810000061988831
+   ],
+   "egg_area_frac": 0.06677001953125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_5",
+   "file": "train/egg/not_damaged_5_jpg.rf.395cc7ec9b988f25e77e403ef537737e.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     187.0,
+     262.5,
+     478.70001220703125,
+     478.3999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8489999771118164
+   ],
+   "sam_pred_iou": [
+    0.984000027179718
+   ],
+   "egg_area_frac": 0.11486083984375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_62",
+   "file": "train/egg/not_damaged_62_jpg.rf.f34bc5162dc72f41ba60d3f5056cc49b.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     207.39999389648438,
+     296.6000061035156,
+     417.29998779296875,
+     460.5
+    ]
+   ],
+   "det_scores": [
+    0.746999979019165
+   ],
+   "sam_pred_iou": [
+    0.9769999980926514
+   ],
+   "egg_area_frac": 0.06385498046875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_95",
+   "file": "train/egg/not_damaged_95_jpg.rf.0806f2b78a5bc571cd36453998060b58.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     167.89999389648438,
+     40.70000076293945,
+     442.6000061035156,
+     258.20001220703125
+    ]
+   ],
+   "det_scores": [
+    0.8479999899864197
+   ],
+   "sam_pred_iou": [
+    0.9900000095367432
+   ],
+   "egg_area_frac": 0.11146484375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_102",
+   "file": "valid/egg/not_damaged_102_jpg.rf.8d754cbc174c6cb6fb1b5c1929edcbb1.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     128.89999389648438,
+     41.29999923706055,
+     439.70001220703125,
+     363.79998779296875
+    ]
+   ],
+   "det_scores": [
+    0.8510000109672546
+   ],
+   "sam_pred_iou": [
+    0.9950000047683716
+   ],
+   "egg_area_frac": 0.1855419921875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_107",
+   "file": "valid/egg/not_damaged_107_jpg.rf.8497e164672ad2319ef9ea157023304e.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     183.6999969482422,
+     154.0,
+     496.6000061035156,
+     436.79998779296875
+    ]
+   ],
+   "det_scores": [
+    0.7599999904632568
+   ],
+   "sam_pred_iou": [
+    0.9909999966621399
+   ],
+   "egg_area_frac": 0.160361328125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_109",
+   "file": "valid/egg/not_damaged_109_jpg.rf.4d74eb94b1d03ebd3e7c442e58699304.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     161.10000610351562,
+     135.89999389648438,
+     503.3999938964844,
+     331.3999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8450000286102295
+   ],
+   "sam_pred_iou": [
+    0.9829999804496765
+   ],
+   "egg_area_frac": 0.1223046875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_115",
+   "file": "valid/egg/not_damaged_115_jpg.rf.5e04f25a50022be8a5f0dbcfe42bc26f.jpg",
+   "n_raw_boxes": 2,
+   "n_eggs": 2,
+   "boxes": [
+    [
+     188.6999969482422,
+     262.3999938964844,
+     474.5,
+     431.29998779296875
+    ],
+    [
+     95.80000305175781,
+     80.9000015258789,
+     387.8999938964844,
+     282.1000061035156
+    ]
+   ],
+   "det_scores": [
+    0.6740000247955322,
+    0.640999972820282
+   ],
+   "sam_pred_iou": [
+    0.9860000014305115,
+    0.9860000014305115
+   ],
+   "egg_area_frac": 0.1967724609375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_119",
+   "file": "valid/egg/not_damaged_119_jpg.rf.6758625c4b939166ca105d0509fc569e.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     95.4000015258789,
+     209.0,
+     401.8999938964844,
+     515.2000122070312
+    ]
+   ],
+   "det_scores": [
+    0.8730000257492065
+   ],
+   "sam_pred_iou": [
+    0.984000027179718
+   ],
+   "egg_area_frac": 0.17289306640625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_11",
+   "file": "valid/egg/not_damaged_11_jpg.rf.95e1bc4944748cfd1a56fe23a42b6ae8.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     178.10000610351562,
+     140.5,
+     394.6000061035156,
+     334.79998779296875
+    ]
+   ],
+   "det_scores": [
+    0.8650000095367432
+   ],
+   "sam_pred_iou": [
+    0.9549999833106995
+   ],
+   "egg_area_frac": 0.06545654296875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_120",
+   "file": "valid/egg/not_damaged_120_jpg.rf.dfe91ad8ce891c84e495a8d59bbe01f5.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     260.3999938964844,
+     188.3000030517578,
+     586.9000244140625,
+     433.8999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8240000009536743
+   ],
+   "sam_pred_iou": [
+    0.9850000143051147
+   ],
+   "egg_area_frac": 0.14828857421875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_122",
+   "file": "valid/egg/not_damaged_122_jpg.rf.b44d8e5a76cadeff9b2d8eaa85309d09.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     112.69999694824219,
+     95.4000015258789,
+     435.0,
+     281.5
+    ]
+   ],
+   "det_scores": [
+    0.7400000095367432
+   ],
+   "sam_pred_iou": [
+    0.9890000224113464
+   ],
+   "egg_area_frac": 0.10897216796875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_126",
+   "file": "valid/egg/not_damaged_126_jpg.rf.2c3342cf9ca7ab55f6682ef198e98bbd.jpg",
+   "n_raw_boxes": 2,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     208.10000610351562,
+     182.8000030517578,
+     463.3999938964844,
+     456.3999938964844
+    ]
+   ],
+   "det_scores": [
+    0.4099999964237213
+   ],
+   "sam_pred_iou": [
+    0.9900000095367432
+   ],
+   "egg_area_frac": 0.12632080078125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_130",
+   "file": "valid/egg/not_damaged_130_jpg.rf.7289d26d022f33aa74b3517f40d6a127.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     170.89999389648438,
+     246.0,
+     498.70001220703125,
+     442.0
+    ]
+   ],
+   "det_scores": [
+    0.7950000166893005
+   ],
+   "sam_pred_iou": [
+    0.9829999804496765
+   ],
+   "egg_area_frac": 0.11828369140625,
+   "override": null
+  },
+  {
+   "id": "not_damaged_133",
+   "file": "valid/egg/not_damaged_133_jpg.rf.a386f448c321cfb45a902bab446a0536.jpg",
+   "n_raw_boxes": 3,
+   "n_eggs": 3,
+   "boxes": [
+    [
+     24.5,
+     224.60000610351562,
+     212.10000610351562,
+     362.70001220703125
+    ],
+    [
+     413.1000061035156,
+     224.89999389648438,
+     626.4000244140625,
+     355.8999938964844
+    ],
+    [
+     10.300000190734863,
+     33.099998474121094,
+     172.3000030517578,
+     194.3000030517578
+    ]
+   ],
+   "det_scores": [
+    0.6399999856948853,
+    0.6290000081062317,
+    0.6269999742507935
+   ],
+   "sam_pred_iou": [
+    0.984000027179718,
+    0.9890000224113464,
+    0.984000027179718
+   ],
+   "egg_area_frac": 0.14529052734375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_136",
+   "file": "valid/egg/not_damaged_136_jpg.rf.b91466d91f3e0005beb0e42acc9d5b83.jpg",
+   "n_raw_boxes": 3,
+   "n_eggs": 3,
+   "boxes": [
+    [
+     159.8000030517578,
+     365.20001220703125,
+     480.6000061035156,
+     572.2000122070312
+    ],
+    [
+     245.39999389648438,
+     53.20000076293945,
+     405.20001220703125,
+     204.60000610351562
+    ],
+    [
+     180.1999969482422,
+     201.0,
+     398.70001220703125,
+     367.20001220703125
+    ]
+   ],
+   "det_scores": [
+    0.6489999890327454,
+    0.6399999856948853,
+    0.6359999775886536
+   ],
+   "sam_pred_iou": [
+    0.9879999756813049,
+    0.9860000014305115,
+    0.9850000143051147
+   ],
+   "egg_area_frac": 0.233896484375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_140",
+   "file": "valid/egg/not_damaged_140_jpg.rf.5a28b6a69e229bf384854ec1e98b3f19.jpg",
+   "n_raw_boxes": 3,
+   "n_eggs": 3,
+   "boxes": [
+    [
+     311.29998779296875,
+     396.1000061035156,
+     544.0,
+     580.7999877929688
+    ],
+    [
+     260.70001220703125,
+     0.10000000149011612,
+     435.0,
+     187.60000610351562
+    ],
+    [
+     275.70001220703125,
+     208.8000030517578,
+     474.20001220703125,
+     382.70001220703125
+    ]
+   ],
+   "det_scores": [
+    0.6460000276565552,
+    0.6439999938011169,
+    0.6299999952316284
+   ],
+   "sam_pred_iou": [
+    0.9850000143051147,
+    0.9879999756813049,
+    0.984000027179718
+   ],
+   "egg_area_frac": 0.2077001953125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_143",
+   "file": "valid/egg/not_damaged_143_jpg.rf.ddf38df15f549405285b01245a2ace36.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     124.69999694824219,
+     260.5,
+     484.70001220703125,
+     464.5
+    ]
+   ],
+   "det_scores": [
+    0.7850000262260437
+   ],
+   "sam_pred_iou": [
+    0.9810000061988831
+   ],
+   "egg_area_frac": 0.13520263671875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_147",
+   "file": "valid/egg/not_damaged_147_jpg.rf.f96813b608c83c8ca5fadbe68c1eefdb.jpg",
+   "n_raw_boxes": 2,
+   "n_eggs": 2,
+   "boxes": [
+    [
+     386.70001220703125,
+     220.5,
+     582.4000244140625,
+     363.20001220703125
+    ],
+    [
+     73.80000305175781,
+     331.8999938964844,
+     309.1000061035156,
+     462.29998779296875
+    ]
+   ],
+   "det_scores": [
+    0.703000009059906,
+    0.6769999861717224
+   ],
+   "sam_pred_iou": [
+    0.9810000061988831,
+    0.9750000238418579
+   ],
+   "egg_area_frac": 0.10721923828125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_149",
+   "file": "valid/egg/not_damaged_149_jpg.rf.c3c35299246e8c667ee33f02855a6e99.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     143.60000610351562,
+     286.3999938964844,
+     388.79998779296875,
+     441.79998779296875
+    ]
+   ],
+   "det_scores": [
+    0.8339999914169312
+   ],
+   "sam_pred_iou": [
+    0.9850000143051147
+   ],
+   "egg_area_frac": 0.071796875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_150",
+   "file": "valid/egg/not_damaged_150_jpg.rf.c58ad3cfc0417f557be06b685008bb60.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     127.4000015258789,
+     224.89999389648438,
+     379.29998779296875,
+     383.3999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8349999785423279
+   ],
+   "sam_pred_iou": [
+    0.9829999804496765
+   ],
+   "egg_area_frac": 0.07553955078125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_158",
+   "file": "valid/egg/not_damaged_158_jpg.rf.344b69defda5c12d2f73f77ab479c93c.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     176.3000030517578,
+     122.69999694824219,
+     436.8999938964844,
+     388.8999938964844
+    ]
+   ],
+   "det_scores": [
+    0.8330000042915344
+   ],
+   "sam_pred_iou": [
+    0.9900000095367432
+   ],
+   "egg_area_frac": 0.12168701171875,
+   "override": null
+  },
+  {
+   "id": "not_damaged_25",
+   "file": "valid/egg/not_damaged_25_jpg.rf.9a2e0ec799b7cfe4b89e93c2bdf7896f.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     195.10000610351562,
+     219.6999969482422,
+     486.29998779296875,
+     444.79998779296875
+    ]
+   ],
+   "det_scores": [
+    0.8569999933242798
+   ],
+   "sam_pred_iou": [
+    0.9909999966621399
+   ],
+   "egg_area_frac": 0.121767578125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_40",
+   "file": "valid/egg/not_damaged_40_jpg.rf.71ddd6e202abb9dd3dd4721b6d408cba.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     115.80000305175781,
+     326.70001220703125,
+     388.5,
+     488.20001220703125
+    ]
+   ],
+   "det_scores": [
+    0.7260000109672546
+   ],
+   "sam_pred_iou": [
+    0.984000027179718
+   ],
+   "egg_area_frac": 0.0810302734375,
+   "override": null
+  },
+  {
+   "id": "not_damaged_45",
+   "file": "valid/egg/not_damaged_45_jpg.rf.afe41bdac424f6a6b81d8a809fdf73e0.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     80.4000015258789,
+     46.5,
+     332.8999938964844,
+     284.29998779296875
+    ]
+   ],
+   "det_scores": [
+    0.8019999861717224
+   ],
+   "sam_pred_iou": [
+    0.9890000224113464
+   ],
+   "egg_area_frac": 0.11205078125,
+   "override": null
+  },
+  {
+   "id": "not_damaged_6",
+   "file": "valid/egg/not_damaged_6_jpg.rf.1b79fa07c23ef838f19c9a226c9022f5.jpg",
+   "n_raw_boxes": 1,
+   "n_eggs": 1,
+   "boxes": [
+    [
+     153.1999969482422,
+     29.600000381469727,
+     453.6000061035156,
+     206.6999969482422
+    ]
+   ],
+   "det_scores": [
+    0.8220000267028809
+   ],
+   "sam_pred_iou": [
+    0.9860000014305115
+   ],
+   "egg_area_frac": 0.09764404296875,
+   "override": null
+  }
+ ]
+}

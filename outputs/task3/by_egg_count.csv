@@ -1,0 +1,5 @@
+split,eggs,n,iou,count_acc,inst_f1
+dev,multi-egg,12,0.874,0.833,0.941
+dev,single egg,76,0.677,0.987,0.758
+eval,multi-egg,5,0.859,1.0,0.9
+eval,single egg,17,0.444,1.0,0.471

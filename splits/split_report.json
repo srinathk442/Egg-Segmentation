@@ -1,0 +1,19 @@
+{
+ "sim_thr": 0.7,
+ "n_groups": 25,
+ "n_dev": 88,
+ "n_eval": 22,
+ "eval_groups": 9,
+ "multi_egg_frac_dev": 0.13636363636363635,
+ "multi_egg_frac_eval": 0.22727272727272727,
+ "eval_to_dev_maxsim_random_split": {
+  "mean": 0.8466955423355103,
+  "p90": 0.9311456680297852,
+  "frac_above_0_9": 0.2786363636363636
+ },
+ "eval_to_dev_maxsim_group_split": {
+  "mean": 0.6517059803009033,
+  "p90": 0.7843191623687744,
+  "frac_above_0_9": 0.0
+ }
+}

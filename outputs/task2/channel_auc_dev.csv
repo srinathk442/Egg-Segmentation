@@ -1,0 +1,12 @@
+channel,global_auc,egg_is,per_image_auc_median,per_image_auc_p10
+B,0.854,higher,0.89,0.706
+R,0.836,higher,0.888,0.721
+gray,0.854,higher,0.888,0.715
+L,0.853,higher,0.885,0.713
+V,0.833,higher,0.885,0.697
+G,0.855,higher,0.877,0.719
+S,0.766,lower,0.819,0.586
+b,0.651,lower,0.815,0.558
+chroma,0.709,lower,0.767,0.545
+H,0.511,higher,0.752,0.577
+a,0.502,lower,0.712,0.541

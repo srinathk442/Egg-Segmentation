@@ -1,0 +1,33 @@
+{
+ "frames": 1440,
+ "ids_created": 2,
+ "frames_with_detections": 776,
+ "detections_per_frame": {
+  "0": 664,
+  "1": 234,
+  "2": 542
+ },
+ "per_id": [
+  {
+   "id": 1,
+   "first": 223,
+   "last": 1027,
+   "visible": 609,
+   "hidden": 108
+  },
+  {
+   "id": 2,
+   "first": 223,
+   "last": 1022,
+   "visible": 705,
+   "hidden": 58
+  }
+ ],
+ "params": {
+  "gate": 1.0,
+  "max_age": 240,
+  "min_hits": 3,
+  "reid_after": 24,
+  "show_hidden": 24
+ }
+}
